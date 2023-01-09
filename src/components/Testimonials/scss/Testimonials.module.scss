@@ -1,0 +1,29 @@
+@import '../../../index.scss';
+.testimonials{
+    margin-top: 150px;
+
+    .cardsWrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div{
+            margin-left: 25px;
+        }
+    }
+
+    .iconWrap{
+        position: relative;
+        .navTitle{
+            font-size: 14px;
+            font-weight: 600;
+            transform: rotate(-90deg);
+            position: absolute;
+            top: -70px;
+            left: -30px;
+            text-transform: uppercase;
+            color: $color_title_light;
+            opacity: 0.6;
+        }
+    }
+}

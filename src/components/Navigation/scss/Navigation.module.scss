@@ -1,0 +1,17 @@
+@import '../../../index.scss';
+
+.link{
+    text-decoration: none;
+    color: $color_title_light;
+    font-size: 17px;
+    margin-left: 60px;
+    font-weight: 600;
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    &:first-child{
+        margin: 0;
+    }
+}

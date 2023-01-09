@@ -1,0 +1,30 @@
+$font_1:'Montserrat', sans-serif;
+$font_2: 'Roboto', sans-serif;
+$font_3: 'Manrope', sans-serif;
+
+$color_text: #6D6D6D;
+$color_title_light: #fff;
+$color_title_dark: #2D2D2D;
+$color_subtitle: #3D3D3D;
+$color_descr:#474747;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font_1;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+
+.container{
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}

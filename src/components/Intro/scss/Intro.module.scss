@@ -1,0 +1,23 @@
+@import '../../../index.scss';
+
+.intro{
+    margin-top: 150px;
+
+    .title{
+        font-weight: 700;
+        color: $color_title_light;
+        font-size: 180px;
+        text-align: center;
+
+    }
+
+    .descr{
+        font-weight: 500;
+        font-size: 30px;
+        color: $color_title_light;
+        opacity: 0.7;
+        letter-spacing: 10px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

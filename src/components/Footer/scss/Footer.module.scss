@@ -1,0 +1,27 @@
+@import '../../../index.scss';
+.footer{
+    background: #F4F4F4;
+    margin-top: 150px;
+    padding: 50px 0;
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+    }
+
+    .navWrap{
+        margin-top: 20px;
+        a{
+            color: $color_subtitle ;
+        }
+    }
+
+    .creditsWrap{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

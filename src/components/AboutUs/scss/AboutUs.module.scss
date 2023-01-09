@@ -1,0 +1,20 @@
+@import '../../../index.scss';
+
+.aboutUs{
+    margin-top: 150px;
+
+    .imgWrap{
+        max-width: 750px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .contentWrap{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

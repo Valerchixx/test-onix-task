@@ -1,0 +1,18 @@
+@import '../../../index.scss';
+
+.subTitle{
+    color: $color_descr;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 36px;
+    color: $color_title_dark;
+    text-align: center;
+    margin-top: 15px;
+}

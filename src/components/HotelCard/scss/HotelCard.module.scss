@@ -1,0 +1,35 @@
+@import '../../../index.scss';
+
+
+.hotelName{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
+.hotelCardWrap{
+    max-width: 400px;
+
+    img{
+        width: 100%;
+    }
+    p{
+        margin: 0;
+    }
+
+    .titleWrap{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .hotelNameWrap{
+            margin-right: 30px;
+        }
+    }
+
+    .price{
+        font-weight: 500;
+        font-size: 20px;
+        color: $color_descr;
+    }
+}

@@ -1,0 +1,44 @@
+@import '../../../index.scss';
+
+.cardInner{
+    width: 300px;
+    position: relative;
+}
+.blurCard{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    filter: blur(3px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.contentWrap{
+    display: flex;
+    padding: 20px 15px;
+    margin-left: 10px;
+
+    p{
+        margin: 0;
+        padding: 0;
+    }
+
+    .title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: $color_title_light;
+        margin-bottom: 4px;
+    }
+
+    .subTitle{
+        color: $color_title_light;
+        opacity: 0.4;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .titleWrap{
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,12 @@
+@import '../../../index.scss';
+
+.partners{
+    margin-top: 150px;
+
+    .logosWrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    }
+}

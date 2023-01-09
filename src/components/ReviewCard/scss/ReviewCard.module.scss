@@ -1,0 +1,59 @@
+@import '../../../index.scss';
+
+.reviewWrap{
+    max-width: 350px;
+    .buble{
+        height: 200px;
+        width: 100%;
+        min-width: 200px;
+        background: #fff;
+        display: block;
+        // margin: 0 auto;
+        border-radius: 20px;
+        margin-top: 50px;
+
+
+        .contentWrap{
+            padding: 20px 40px;
+
+            .text{
+                font-size: 16px;
+                font-weight: 300;
+                color:$color_title_dark ;
+                font-family: $font_2;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .pointer {
+        height: 35px;
+        width: 30px;
+        background: #fff;
+        transform: rotate(45deg);
+        border-radius: 0 0 12px 0;
+        margin-top: -22px;
+        position: relative;
+        color: #fff;
+        left: 50px;
+    }
+    .aboutPerson{
+        margin-left: 35px;
+        margin-top: 15px;
+        font-family: $font_3;
+
+        .name{
+            font-size: 20px;
+            font-weight: 700;
+            color: $color_title_light;
+        }
+
+        .position{
+            font-weight: 400;
+            font-size: 15px;
+            color: $color_title_light;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+    }
+}

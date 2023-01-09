@@ -1,0 +1,32 @@
+@import '../../../index.scss';
+
+.wrap{
+    max-width: 400px;
+    display: flex;
+    align-items: baseline;
+
+    .index{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        color: $color_text;
+    }
+
+    .textWrap{
+        margin-left: 25px;
+        .headTitle{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            color: $color_title_dark;
+        }
+
+        .text{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: $color_text;
+
+        }
+    }
+}
