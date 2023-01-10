@@ -15,13 +15,13 @@ import styles from './scss/Home.module.scss';
 class Home extends Component {
 	constructor(props) {
 		super(props);
-
 		this.destinationsRef = createRef(null);
 		this.activitiesRef = createRef(null);
 		this.aboutUsRef = createRef(null);
 		this.contactRef = createRef(null);
-		this.goToSection = section => window.scrollTo({top: section.current.offsetTop, behavior: 'smooth'});
 	}
+
+	goToSection = section => window.scrollTo({top: section.current.offsetTop, behavior: 'smooth'});
 
 	render() {
 		return (
@@ -41,7 +41,12 @@ class Home extends Component {
 				<Hotels />
 				<Partners />
 				<Reviews />
-				<Footer contactRef={this.contactRef} />
+				<Footer
+					contactRef={this.contactRef}
+					goToDestinationsRef={() => this.goToSection(this.destinationsRef)}
+					goToActivitiesRef={() => this.goToSection(this.activitiesRef)}
+					goToAboutUsRef={() => this.goToSection(this.aboutUsRef)}
+					goToContactRef={() => this.goToSection(this.contactRef)} />
 			</div>
 		);
 	}

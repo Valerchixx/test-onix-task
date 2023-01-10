@@ -7,7 +7,7 @@ import Navigation from '../Navigation/Navigation';
 
 import styles from './scss/Footer.module.scss';
 
-const Footer = ({contactRef}) => (
+const Footer = ({contactRef, goToDestinationsRef, goToActivitiesRef, goToAboutUsRef, goToContactRef}) => (
 	<div ref={contactRef} className={styles.footer}>
 		<div className={styles.container}>
 			<div className={styles.wrapper}>
@@ -15,7 +15,11 @@ const Footer = ({contactRef}) => (
 					<img src={logoFooter} alt='logo footer' />
 				</div>
 				<div className={styles.navWrap}>
-					<Navigation />
+					<Navigation
+						goToActivitiesRef={goToActivitiesRef}
+						goToAboutUsRef={goToAboutUsRef}
+						goToDestinationsRef={goToDestinationsRef}
+						goToContactRef={goToContactRef} />
 				</div>
 			</div>
 			<div className={styles.creditsWrap}>
@@ -36,6 +40,10 @@ Footer.propTypes = {
 		PropTypes.func,
 		PropTypes.shape({current: PropTypes.instanceOf(Element)}),
 	]),
+	goToDestinationsRef: PropTypes.func.isRequired,
+	goToActivitiesRef: PropTypes.func.isRequired,
+	goToAboutUsRef: PropTypes.func.isRequired,
+	goToContactRef: PropTypes.func.isRequired,
 };
 
 export default Footer;

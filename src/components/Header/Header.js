@@ -7,23 +7,26 @@ import Navigation from '../Navigation/Navigation';
 
 import styles from './scss/Header.module.scss';
 
-const Header = ({goToDestinationsRef, goToActivitiesRef, goToAboutUsRef, goToContactRef}) => (
-	<div className={styles.header}>
-		<div className={styles.container}>
-			<div className={styles.headerWrap}>
-				<div className={styles.logoWrap}>
-					<img src={logo} alt='' />
+const Header = ({goToDestinationsRef, goToActivitiesRef, goToAboutUsRef, goToContactRef}) => {
+	console.log(goToActivitiesRef);
+	return (
+		<div className={styles.header}>
+			<div className={styles.container}>
+				<div className={styles.headerWrap}>
+					<div className={styles.logoWrap}>
+						<img src={logo} alt='' />
+					</div>
+					<Navigation
+						goToActivitiesRef={goToActivitiesRef}
+						goToAboutUsRef={goToAboutUsRef}
+						goToDestinationsRef={goToDestinationsRef}
+						goToContactRef={goToContactRef} />
 				</div>
-				<Navigation
-					goToDestinationsRef={goToDestinationsRef}
-					goToActivitiesRef={goToActivitiesRef}
-					goToAboutUsRef={goToAboutUsRef}
-					goToContactRef={goToContactRef}
-				/>
 			</div>
 		</div>
-	</div>
-);
+
+	);
+};
 
 Header.propTypes = {
 	goToDestinationsRef: PropTypes.func.isRequired,
