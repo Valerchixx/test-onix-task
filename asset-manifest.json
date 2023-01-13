@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-onix-task/static/css/main.06fc44c8.css",
-    "main.js": "/test-onix-task/static/js/main.0b641d32.js",
+    "main.js": "/test-onix-task/static/js/main.b221824e.js",
     "static/js/787.14e8c0ce.chunk.js": "/test-onix-task/static/js/787.14e8c0ce.chunk.js",
     "static/media/background.png": "/test-onix-task/static/media/background.437240aaf638560b2adc.png",
     "static/media/reviewsBackground.png": "/test-onix-task/static/media/reviewsBackground.a2a74c9e0f695b9ee353.png",
@@ -18,11 +18,11 @@
     "static/media/quotes.svg": "/test-onix-task/static/media/quotes.8474ed4c5821d8db560386ad45013073.svg",
     "static/media/arrow.svg": "/test-onix-task/static/media/arrow.cf4eef8bb306707576f1eac071f0b50c.svg",
     "main.06fc44c8.css.map": "/test-onix-task/static/css/main.06fc44c8.css.map",
-    "main.0b641d32.js.map": "/test-onix-task/static/js/main.0b641d32.js.map",
+    "main.b221824e.js.map": "/test-onix-task/static/js/main.b221824e.js.map",
     "787.14e8c0ce.chunk.js.map": "/test-onix-task/static/js/787.14e8c0ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06fc44c8.css",
-    "static/js/main.0b641d32.js"
+    "static/js/main.b221824e.js"
   ]
 }
