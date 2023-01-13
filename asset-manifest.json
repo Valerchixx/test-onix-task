@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/test-onix-task/static/css/main.06fc44c8.css",
+    "main.js": "/test-onix-task/static/js/main.0b641d32.js",
+    "static/js/787.14e8c0ce.chunk.js": "/test-onix-task/static/js/787.14e8c0ce.chunk.js",
+    "static/media/background.png": "/test-onix-task/static/media/background.437240aaf638560b2adc.png",
+    "static/media/reviewsBackground.png": "/test-onix-task/static/media/reviewsBackground.a2a74c9e0f695b9ee353.png",
+    "static/media/aboutUs.png": "/test-onix-task/static/media/aboutUs.9890287ff328fcb65be3.png",
+    "static/media/activity3.png": "/test-onix-task/static/media/activity3.8bed7fad2591bcb24d58.png",
+    "static/media/activity1.png": "/test-onix-task/static/media/activity1.c17219537c4b6818979a.png",
+    "static/media/activity4.png": "/test-onix-task/static/media/activity4.bd0eb88e575cc4f068b9.png",
+    "static/media/activity2.png": "/test-onix-task/static/media/activity2.27bffa24e681c9e78823.png",
+    "static/media/hotels2.png": "/test-onix-task/static/media/hotels2.6b3d9807ff5a37a6f5ba.png",
+    "static/media/hotels1.png": "/test-onix-task/static/media/hotels1.d1cb7b7e540050a8cf58.png",
+    "static/media/hotels3.png": "/test-onix-task/static/media/hotels3.c83889335d1cd241f89c.png",
+    "static/media/lakeHouse.png": "/test-onix-task/static/media/lakeHouse.e23e509768270e394c9e.png",
+    "index.html": "/test-onix-task/index.html",
+    "static/media/quotes.svg": "/test-onix-task/static/media/quotes.8474ed4c5821d8db560386ad45013073.svg",
+    "static/media/arrow.svg": "/test-onix-task/static/media/arrow.cf4eef8bb306707576f1eac071f0b50c.svg",
+    "main.06fc44c8.css.map": "/test-onix-task/static/css/main.06fc44c8.css.map",
+    "main.0b641d32.js.map": "/test-onix-task/static/js/main.0b641d32.js.map",
+    "787.14e8c0ce.chunk.js.map": "/test-onix-task/static/js/787.14e8c0ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06fc44c8.css",
+    "static/js/main.0b641d32.js"
+  ]
+}
