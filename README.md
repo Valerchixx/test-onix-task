@@ -10,6 +10,6 @@ To launch website localy clone it and run commands:
 npm install
 npm start
 ```
-##GitHub pages
+## GitHub pages
 
 [link to web site](https://valerchixx.github.io/test-onix-task/)
