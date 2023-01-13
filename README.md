@@ -2,7 +2,7 @@
 
 
 ## 📋Description
-Test task fro React.js intership
+Test task for React.js intership
 
 ## Aviable scripts
 To launch website localy clone it and run commands:
