@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -27,10 +26,9 @@ const Footer = ({contactRef, goToDestinationsRef, goToActivitiesRef, goToAboutUs
 					<p>© 2022 Bikart Design. All rights reserved</p>
 				</div>
 				<div>
-					<p>Author: Valeria Proshachenko</p>
+					<p>Made by: Valeria Proshachenko</p>
 				</div>
 			</div>
-
 		</div>
 	</div>
 );

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -7,15 +6,14 @@ import Navigation from '../Navigation/Navigation';
 
 import styles from './scss/Header.module.scss';
 
-const Header = ({goToDestinationsRef, goToActivitiesRef, goToAboutUsRef, goToContactRef}) => {
-	console.log(goToActivitiesRef);
-	return (
-		<div className={styles.header}>
-			<div className={styles.container}>
-				<div className={styles.headerWrap}>
-					<div className={styles.logoWrap}>
-						<img src={logo} alt='' />
-					</div>
+const Header = ({goToDestinationsRef, goToActivitiesRef, goToAboutUsRef, goToContactRef}) => (
+	<div className={styles.header}>
+		<div className={styles.container}>
+			<div className={styles.headerWrap}>
+				<div className={styles.logoWrap}>
+					<img src={logo} alt='' />
+				</div>
+				<div>
 					<Navigation
 						goToActivitiesRef={goToActivitiesRef}
 						goToAboutUsRef={goToAboutUsRef}
@@ -24,9 +22,8 @@ const Header = ({goToDestinationsRef, goToActivitiesRef, goToAboutUsRef, goToCon
 				</div>
 			</div>
 		</div>
-
-	);
-};
+	</div>
+);
 
 Header.propTypes = {
 	goToDestinationsRef: PropTypes.func.isRequired,

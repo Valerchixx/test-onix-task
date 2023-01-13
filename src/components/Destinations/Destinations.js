@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -6,7 +5,7 @@ import arrow from '../../assets/icons/arrow.svg';
 import {cardTitles} from '../../constants/cardTitles';
 import LocationCard from '../LocationCard/LocationCard';
 
-import styles from './scss/Testimonials.module.scss';
+import styles from './scss/Destinations.module.scss';
 
 const Destinations = ({destinationsRef}) => (
 	<div ref={destinationsRef} className={styles.testimonials}>
@@ -22,7 +21,6 @@ const Destinations = ({destinationsRef}) => (
 			</div>
 		</div>
 	</div>
-
 );
 
 Destinations.propTypes = {

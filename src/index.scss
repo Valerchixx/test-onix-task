@@ -8,6 +8,11 @@ $color_title_dark: #2D2D2D;
 $color_subtitle: #3D3D3D;
 $color_descr:#474747;
 
+$large: 1120px;
+$medium: 992px;
+$small: 678px;
+$extra-small: 340px;
+
 
 body {
   margin: 0;
@@ -27,4 +32,13 @@ h1,h2,h3,h4,h5,h6{
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
+  @media screen and (max-width: $large){
+    max-width: 960px;
+  }
+  @media screen and  (max-width: $medium){
+    max-width: 740px;
+  }
+  @media screen and (max-width: $small){
+    max-width: 540px;
+  }
 }

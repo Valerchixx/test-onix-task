@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -19,7 +18,6 @@ const Activities = ({activitiesRef}) => (
 			</div>
 		</div>
 	</div>
-
 );
 
 Activities.propTypes = {

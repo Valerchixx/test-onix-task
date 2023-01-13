@@ -6,6 +6,20 @@
     font-size: 17px;
     margin-left: 60px;
     font-weight: 600;
+    @media  (max-width: $medium){
+        margin-left: 25px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    @media  (max-width: $extra-small){
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    @media  (max-width: $extra-small){
+        font-size: 13px;
+        margin-left: 15px;
+    }
+
 
     &:hover{
         opacity: 0.8;

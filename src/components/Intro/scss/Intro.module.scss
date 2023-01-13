@@ -2,12 +2,25 @@
 
 .intro{
     margin-top: 150px;
+    @media  (max-width: $small){
+        margin-top: 100px;
+    }
+
 
     .title{
         font-weight: 700;
         color: $color_title_light;
         font-size: 180px;
         text-align: center;
+        @media  (max-width: $medium){
+            font-size: 110px;
+        }
+        @media  (max-width: $small){
+            font-size: 90px;
+        }
+        @media  (max-width: $extra-small){
+           font-size: 80px;
+        }
 
     }
 
@@ -19,5 +32,11 @@
         letter-spacing: 10px;
         text-align: center;
         text-transform: uppercase;
+        @media  (max-width: $small){
+            font-size: 25px;
+        }
+        @media  (max-width: $extra-small){
+            font-size: 20px;
+         }
     }
 }

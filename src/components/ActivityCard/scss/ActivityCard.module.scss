@@ -3,6 +3,13 @@
 .cardWrap{
     max-width: 270px;
     position: relative;
+    @media (max-width: $large){
+        max-width: 190px;
+    }
+    @media  (max-width: $medium){
+       max-width: 200px;
+       margin-bottom: 15px;
+    }
 
     &:hover .overlay{
         opacity: 1;
@@ -49,4 +56,5 @@
         }
     }
 }
+
 

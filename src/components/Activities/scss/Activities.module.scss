@@ -1,15 +1,19 @@
 @import '../../../index.scss';
 
 .activities{
-    margin-top: 80px;
+    margin-top: 150px;
+    @media  (max-width: $extra-small){
+        margin-top: 100px;
+    }
 
     .activityCardsWrap{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 70px;
-
-        // div{
-        //     margin-left: 30px;
-        // }
+        @media  (max-width: $medium){
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
     }
 }

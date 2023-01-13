@@ -7,6 +7,9 @@
     letter-spacing: 15px;
     text-align: center;
     text-transform: uppercase;
+    @media  (max-width: $small){
+        font-size: 14px;
+    }
 }
 
 .title{
@@ -15,4 +18,10 @@
     color: $color_title_dark;
     text-align: center;
     margin-top: 15px;
+    @media  (max-width: $medium){
+       font-size: 32px;
+    }
+    @media  (max-width: $small){
+        font-size: 28px;
+    }
 }

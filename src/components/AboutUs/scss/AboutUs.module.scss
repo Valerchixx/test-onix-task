@@ -2,9 +2,15 @@
 
 .aboutUs{
     margin-top: 150px;
+    @media  (max-width: $extra-small){
+        margin-top: 100px;
+    }
 
     .imgWrap{
         max-width: 750px;
+        @media  (max-width: $medium){
+            max-width: 525px;
+        }
 
         img{
             width: 100%;
@@ -16,5 +22,8 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        @media (max-width: $large){
+            flex-direction: column;
+        }
     }
 }

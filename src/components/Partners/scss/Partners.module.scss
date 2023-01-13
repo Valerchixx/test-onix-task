@@ -2,11 +2,23 @@
 
 .partners{
     margin-top: 150px;
+    @media  (max-width: $extra-small){
+        margin-top: 100px;
+    }
 
     .logosWrap{
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 40px;
+        @media screen and (max-width: $large){
+            flex-direction: column;
+        }
+
+        img{
+            width: 200px;
+            height: 80px;
+            object-fit: cover;
+        }
     }
 }

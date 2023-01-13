@@ -8,6 +8,22 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        .logoWrap{
+            max-width: 155px;
+            @media  (max-width: $medium){
+                max-width: 130px;
+            }
+            img{
+                width: 100%;
+            }
+        }
+
+        @media  (max-width: $medium){
+            justify-content: space-around;
+            flex-direction: column;
+        }
+
     }
 
 }

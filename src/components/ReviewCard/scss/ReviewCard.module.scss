@@ -8,9 +8,11 @@
         min-width: 200px;
         background: #fff;
         display: block;
-        // margin: 0 auto;
         border-radius: 20px;
         margin-top: 50px;
+        @media  (max-width: $medium){
+            margin-top: 20px;
+        }
 
 
         .contentWrap{
@@ -22,6 +24,15 @@
                 color:$color_title_dark ;
                 font-family: $font_2;
                 line-height: 20px;
+                @media screen and (max-width: $large){
+                    font-size: 15px;
+                }
+            }
+            @media screen and (max-width: $large){
+                padding: 10px 20px;
+            }
+            @media  (max-width: $medium){
+                padding: 5px 10px;
             }
         }
     }
@@ -56,4 +67,8 @@
             margin-top: 5px;
         }
     }
+    @media screen and (max-width: $large){
+        max-width: 230px;
+    }
 }
+

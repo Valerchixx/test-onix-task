@@ -2,13 +2,13 @@ import React, {Component, createRef} from 'react';
 
 import AboutUs from '../../components/AboutUs/AboutUs';
 import Activities from '../../components/Activities/Activities';
+import Destinations from '../../components/Destinations/Destinations';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import Hotels from '../../components/Hotels/Hotels';
 import Intro from '../../components/Intro/Intro';
 import Partners from '../../components/Partners/Partners';
 import Reviews from '../../components/Reviews/Reviews';
-import Testimonials from '../../components/Testimonials/Testimonials';
 
 import styles from './scss/Home.module.scss';
 
@@ -34,7 +34,7 @@ class Home extends Component {
 						goToContactRef={() => this.goToSection(this.contactRef)}
 					/>
 					<Intro/>
-					<Testimonials destinationsRef={this.destinationsRef} />
+					<Destinations destinationsRef={this.destinationsRef} />
 				</section>
 				<Activities activitiesRef={this.activitiesRef} />
 				<AboutUs aboutUsRef={this.aboutUsRef} />

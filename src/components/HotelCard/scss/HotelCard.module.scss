@@ -9,6 +9,10 @@
 
 .hotelCardWrap{
     max-width: 400px;
+    @media screen and (max-width: $large){
+        max-width: 260px;
+        margin-top: 20px;
+    }
 
     img{
         width: 100%;
