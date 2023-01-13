@@ -23,10 +23,11 @@ const Footer = ({contactRef, goToDestinationsRef, goToActivitiesRef, goToAboutUs
 			</div>
 			<div className={styles.creditsWrap}>
 				<div>
-					<p>© 2022 Bikart Design. All rights reserved</p>
+					<p>original design: <a href='https://www.figma.com/file/SIhVaQLIRXAYFHHOzEsE0p/Travel-Landing-Page---Free-(Commu'>Figma</a></p>
 				</div>
 				<div>
 					<p>Made by: Valeria Proshachenko</p>
+					<p>GitHub: <a href='https://github.com/Valerchixx'>link</a></p>
 				</div>
 			</div>
 		</div>
